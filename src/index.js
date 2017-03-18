@@ -24,12 +24,12 @@ module.exports = function(filepath,cid)
         });
     })
 };
-
-module.exports('/web/server/nodejs/deploy/server/apps/yoyo/tmp/1.ppt','test')
-    .then(function(stdout)
-    {
-        console.log(stdout);
-    },function(err)
-    {
-        console.log(err);
-    });
+//
+// module.exports('/web/server/nodejs/deploy/server/apps/yoyo/tmp/1.ppt','test')
+//     .then(function(stdout)
+//     {
+//         console.log(stdout);
+//     },function(err)
+//     {
+//         console.log(err);
+//     });
