@@ -5,11 +5,10 @@ public class Main
 {
     public static void main(String[] args) throws IOException
     {
-        String file = args[0];
+        String file = args[0]; //绝对路径
         String cid = args[1];
 
-        File rootDir = new File("classes");
-        String rootDirPath = rootDir.getAbsolutePath();
+        String rootDirPath = "/web/sites/luoc.co/yoyo/yoyo-loves-you/classes";
 
         String classDirPath = rootDirPath + File.separator + cid;
         File classDir = new File(classDirPath);
