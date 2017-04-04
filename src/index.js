@@ -16,6 +16,8 @@ module.exports = function(filepath,cid)
             if(err)
             {
                 reject(err);
+                console.log(err);
+                console.log(stderr);
             }
             else
             {

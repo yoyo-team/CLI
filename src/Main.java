@@ -8,7 +8,7 @@ public class Main
         String file = args[0]; //绝对路径
         String cid = args[1];
 
-        String rootDirPath = "/web/sites/luoc.co/yoyo/yoyo-loves-you/classes";
+        String rootDirPath = "/web/sites/luoc.co/yoyo/classes";
 
         String classDirPath = rootDirPath + File.separator + cid;
         File classDir = new File(classDirPath);
